@@ -5,11 +5,11 @@
 
 p {
     color: white;
+    word-break: break-all;
 }
 
 nav {
     background-color: #0B0C10;
-    /* undecied yet this is temp*/
     overflow: hidden;
     top: 0;
     position: fixed;
@@ -72,7 +72,6 @@ h2 {
     margin: auto;
     text-align: center;
     width: 750px;
-    word-break: break-all;
     font-size: 16px;
     /*Get rid of below once happy with box size*/
     border-style: solid;
@@ -103,7 +102,6 @@ h2 {
 .social_bar {
     margin-top: 10px;
     text-align: center;
-    font-size: 30px;
 }
 
 .fa {
@@ -111,6 +109,7 @@ h2 {
     width: 30px;
     text-align: center;
     text-decoration: none;
+    font-size: 30px;
     color: white;
     border-style: solid;
     border-width: 2px;
@@ -122,30 +121,37 @@ h2 {
     color: black;
     background-color: #66FCF1;
 }
+
 .projects {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #66FCF1;
+    margin-bottom: 50px;
 }
+
 .project_display {
-    display: inline-block;
+    display: block;
     color: white;
-    width: 100%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #66FCF1;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
 }
 .project_display img {
     text-align: left;
     height: 200px;
     width: 200px;
+    border-radius: 32px;
+}
+.project_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    max-height: 200px;
 }
 
-.project_text {
-    justify-self: center;
-    width: 75%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #66FCF1;
-    display: inline-block;
+.project_content h3 {
+    vertical-align: top;
+    width: fit-content;
+}
+.project_content p {
+    vertical-align: top;
+    padding-left: 20px;
+    transform: translateY(-15px);
 }
