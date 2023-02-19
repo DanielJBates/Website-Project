@@ -1,23 +1,41 @@
 * {
-    background-color: #0B0C10;
+    background-color: #2D2926FF;
     font-family: 'Courier New', Courier, monospace;
 }
 
 p {
     color: white;
     word-break: break-all;
+    font-size: 16px;
 }
 
 nav {
-    background-color: #0B0C10;
+    background-color: transparent;
     overflow: hidden;
     top: 0;
     position: fixed;
-    width: 100%;
-    height: 50px;
+    width: fit-content;
+    height: fit-content;
     z-index: 1;
 }
 
+nav h3 {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: 5px;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #E94B3CFF;
+    border-color: #E94B3CFF;
+    border-radius: 32px;
+    color: black;
+}
 nav .button {
     float: left;
     display: block;
@@ -44,7 +62,7 @@ nav .button {
     width: 100%;
     transform: translate(-50%, -80%);
     white-space: pre-line;
-    color: #66FCF1;
+    color: #E94B3CFF;
     background-color: transparent;
 }
 
@@ -55,16 +73,15 @@ nav .button {
 .about_me img {
     display: block;
     margin: auto;
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 100%;
 }
 
 h2 {
     font-size: 30px;
-    color: #66FCF1;
-    background-color: #0B0C10;
+    color: #E94B3CFF;
     text-align: center;
 }
 
@@ -76,7 +93,7 @@ h2 {
     /*Get rid of below once happy with box size*/
     border-style: solid;
     border-width: 2px;
-    border-color: #66FCF1;
+    border-color: #E94B3CFF;
 }
 
 .button {
@@ -89,13 +106,13 @@ h2 {
     padding: 8px 10px;
     border-style: solid;
     border-width: 2px;
-    border-color: #66FCF1;
+    border-color: #E94B3CFF;
     border-radius: 32px;
     color: white;
 }
 
 .button:hover {
-    background-color: #66FCF1;
+    background-color: #E94B3CFF;
     color: black;
 }
 
@@ -104,7 +121,7 @@ h2 {
     text-align: center;
 }
 
-.fa {
+.fa, .fa-solid {
     padding: 10px;
     width: 30px;
     text-align: center;
@@ -113,13 +130,8 @@ h2 {
     color: white;
     border-style: solid;
     border-width: 2px;
-    border-color: #66FCF1;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    color: black;
-    background-color: #66FCF1;
+    border-color: #E94B3CFF;
+    border-radius: 100%;
 }
 
 .projects {
@@ -127,11 +139,12 @@ h2 {
 }
 
 .project_display {
+    position: relative;
     display: block;
     color: white;
     width: 1000px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 .project_display img {
     text-align: left;
@@ -140,18 +153,30 @@ h2 {
     border-radius: 32px;
 }
 .project_content {
+    position: relative;
     display: inline-block;
     vertical-align: top;
+    height: 200px;
     width: 75%;
     max-height: 200px;
 }
 
 .project_content h3 {
+    font-size: 25px;
     vertical-align: top;
     width: fit-content;
+    margin-top: auto;
+    text-decoration: underline;
 }
 .project_content p {
     vertical-align: top;
     padding-left: 20px;
+    height: 100px;
     transform: translateY(-15px);
+}
+
+.content_links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

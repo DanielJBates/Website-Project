@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>Daniel Bates' Portfolio</title>
-        <link href="./StyleSheet.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/844b733b94.js" crossorigin="anonymous"></script> <!--Social media icons etc-->
-    </head>
+<head>
+    <title>Daniel Bates Portfolio</title>
+    <link href="./StyleSheet.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/844b733b94.js" crossorigin="anonymous"></script> <!--Icons from Font Awesome-->
+</head>
 
-    <body>
+<body>
+    <nav>
+        <h3>Daniel Bates</h3>
 
-        <nav>
-            <a class="button" href="./Home.html">Home</a>            
-            <a class="button" href="#About Me">About Me</a>
-            <a class="button" href="#Projects">Projects</a>
-            <a class="button" href="./pdf/Daniel Bates CV.pdf" target="_blank">CV</a>
-        </nav>
+        <a class="button" href="./Home.html">Home</a>
+        <a class="button" href="#About Me">About Me</a>
+        <a class="button" href="#Projects">Projects</a>
+        <a class="button" href="./pdf/Daniel Bates CV.pdf" target="_blank">CV</a>
 
-        <div class='title_banner'>
-            <img src="./images/banner.jpg" alt="A picture of miscellaneous code">
-            <h1>Daniel Bates 
-                Portfolio</h1>
+    </nav>
+
+    <div class="about_me" id="About Me">
+        <img src="./images/placeholderPanda.jpg" alt="A picture of Daniel Bates"> <!--Need a picture of myself-->
+        
+        <h2>About Me</h2>
+        <p>A BRIEF PARAGRAPH ABOUT ME</p> <!--Need to fill in-->
+        <div class="social_bar">
+            <a class="fa fa-envelope button" href="mailto:daniel.j.bates@outlook.com" target="_blank"></a>
+            <a class="fa fa-linkedin button" href="https://www.linkedin.com/in/daniel-bates-3a63b4198/" target="_blank"></a> <!--need to update-->
+            <a class="fa fa-github button" href="https://github.com/DanielJBates" target="_blank"></a>
+            <a class="fa-solid fa-file button" href="./pdf/Daniel Bates CV.pdf" target="_blank"></a> <!--need to update-->
         </div>
+    </div>
 
-        <div class="about_me" id="About Me">
-            <img src="./images/panda.jpg" alt="A picture of Daniel Bates">
-            <!--Need a picture of myself-->
-            <h2>About Me</h2>
-            <p>A BRIEF PARAGRAPH ABOUT ME</p>
-            <div class="social_bar">
-                <a class="fa fa-envelope" href="mailto:daniel.j.bates@outlook.com" target="_blank"></a>
-                <a class="fa fa-linkedin" href="https://www.linkedin.com/in/daniel-bates-3a63b4198/" target="_blank"></a>
-                <a class="fa fa-github" href="https://github.com/DanielJBates" target="_blank"></a>
-            </div>
-        </div>
-
-        <div class='projects' id="Projects">
-            <h2>Projects</h2>
-            <div class="project_display">
-                <img src="./images/panda.jpg">
+    <div class="projects" id="Projects">
+        <h2>Projects</h2>
+        <div class="project_display">
+            <div id="Title of project"> <!--need to update-->
+                <img src="./images/placeholderPanda.jpg">
                 <div class="project_content">
                     <h3>project title</h3>
-                    <p>description</p> <!--552 is the character limit-->
+                    <p>description</p> <!--442 is the character limit at 16px font size-->
+                    <div class="content_links">
+                        <a class="fa-solid fa-video button"></a>
+                        <a class="fa-solid fa-folder button"></a>
+                    </div>
                 </div>
             </div>
-            <!-- Not needed at the moment
+
+        </div>
+        <!-- Not needed at the moment
                 <a class='button' href="./Project_Catalog.html">Project Catalog</a>
             -->
-        </div>
+    </div>
 
-    </body>
+</body>
 
 </html>
