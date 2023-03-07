@@ -137,23 +137,27 @@ h2 {
     position: relative;
     display: block;
     color: white;
-    width: 1000px;
+    width: 1250px;
     margin: auto;
     margin-top: 20px; 
 }
 .project_display img {
     text-align: left;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 32px;
 }
 .project_content {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    height: 200px;
+    height: 250px;
     width: 75%;
-    max-height: 200px;
+    max-height: 250px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E94B3CFF;
 }
 
 .project_content h3 {
@@ -166,8 +170,12 @@ h2 {
 .project_content p {
     vertical-align: top;
     padding-left: 20px;
-    height: 100px;
+    height: 150px;
     transform: translateY(-15px);
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E94B3CFF;
 }
 
 .content_links {
