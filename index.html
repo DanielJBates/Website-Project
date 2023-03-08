@@ -4,7 +4,8 @@
 <head>
     <title>Daniel Bates Portfolio</title>
     <link href="./StyleSheet.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/844b733b94.js" crossorigin="anonymous"></script> <!--Icons from Font Awesome-->
+    <script src="https://kit.fontawesome.com/844b733b94.js" crossorigin="anonymous"></script>
+    <!--Icons from Font Awesome-->
 </head>
 
 <body>
@@ -13,21 +14,21 @@
 
         <a class="button" href="./index.html">Home</a>
         <a class="button" href="#About Me">About Me</a>
-        <a class="button" href="./Project_Catalog.html">Projects</a>
+        <a class="button" href="#Projects">Projects</a>
         <a class="button" href="./pdf/Daniel Bates CV.pdf" target="_blank">CV</a>
 
     </nav>
 
     <div class="about_me" id="About Me">
         <img src="./images/placeholder.png" alt="A picture of Daniel Bates"> <!--Need a picture of myself-->
-        
+
         <h2>About Me</h2>
         <p>A BRIEF PARAGRAPH ABOUT ME</p> <!--Need to fill in-->
         <div class="social_bar">
-            <a class="fa fa-envelope button" href="mailto:daniel.j.bates@outlook.com" target="_blank"></a>
-            <a class="fa fa-linkedin button" href="https://www.linkedin.com/in/daniel-j-bates" target="_blank"></a>
-            <a class="fa fa-github button" href="https://github.com/DanielJBates" target="_blank"></a>
-            <a class="fa-solid fa-file button" href="./pdf/Daniel Bates CV.pdf" target="_blank"></a>
+            <a class="fa fa-envelope button" href="mailto:daniel.j.bates@outlook.com" target="_blank" title="Email"></a>
+            <a class="fa fa-linkedin button" href="https://www.linkedin.com/in/daniel-j-bates" target="_blank" title="Linkedin"></a>
+            <a class="fa fa-github button" href="https://github.com/DanielJBates" target="_blank" title="Github"></a>
+            <a class="fa-solid fa-file button" href="./pdf/Daniel Bates CV.pdf" target="_blank" title="CV"></a>
         </div>
     </div>
 
@@ -35,67 +36,65 @@
         <h2>Projects</h2>
         <div class="project_display">
 
+            <div class="project" id="Climax Studios 2023 Game Jam">
+                <img src="./images/TUTB.png">
+                <div class="project_content">
+                    <h3>The Unfortunate Tales Of Bow</h3>
+                    <p>This was made in collaboration with Kieron Beadle for the Climax Studios 2023 Charity Game Jam.
+                        We had 48 hours to create a game based on the word "shift". The idea my teammate and I decided
+                        to go with was a puzzle platforming game where the player can shift their physical colour to be
+                        able to interact or pass through other coloured objects. The game was created in Unity,
+                        programmed in C# and managed using Git. I worked on the player movement, sprites, level
+                        design/creation and implementing special controls for demoing. </p>
+                    <!--442 is the character limit at 16px font size-->
+                    <div class="content_links">
+                        <a class="fa-solid fa-play button" href="" target="_blank" title="Play the game"></a>
+                        <a class="fa-solid fa-video button" href="https://youtu.be/p2KVu7iML9A" target="_blank"
+                            title="Video Demo"></a>
+                        <a class="fa-solid fa-folder button"
+                            href="https://github.com/DanielJBates/Climax-Studios-2023-Game-Jam" target="_blank"
+                            title="Project Repo"></a>
+                    </div>
+                </div>
+            </div>
+
             <div class="project" id="Real Time Graphics and CPP">
                 <img src="./images/RocketSimulation.png">
                 <div class="project_content">
                     <h3>Rocket Simulation</h3>
-                    <p>This was my coursework for my C++ programming and design, and my real time graphics module in my 4th year at university. 
-                        The aim of the project was to create a simulation of a rocket launch using the knowledge I had gained of various 
-                        graphical techniques, the DirectX 11 pipeline, and C++.</p> <!--442 is the character limit at 16px font size-->
+                    <p>This was my coursework for my C++ programming and design, and my real-time graphics module in my
+                        4th year at university.
+                        The aim of the project was to create a simulation of a rocket launch using the knowledge I had
+                        gained of various
+                        graphical techniques, the DirectX 11 pipeline, and C++.
+                    </p> <!--442 is the character limit at 16px font size-->
                     <div class="content_links">
-                        <a class="fa-solid fa-video button" href="" target="_blank"></a> <!--need to update-->
-                        <a class="fa-solid fa-folder button" href="https://github.com/DanielJBates/C-Plus-Plus-Programming/tree/main/ACW/700120-2223-lab-final-DanielJBates" target="_blank"></a>
+                        <a class="fa-solid fa-video button" href="https://youtu.be/XMy9vyuwiNY" target="_blank"
+                        title="Video Demo"></a>
+                        <!--need to update-->
+                        <a class="fa-solid fa-folder button"
+                            href="https://github.com/DanielJBates/C-Plus-Plus-Programming/tree/main/ACW/700120-2223-lab-final-DanielJBates"
+                            target="_blank" title="Project Repo"></a>
                     </div>
                 </div>
             </div>
 
-            <div class="project" id="Game Architecture"> <!--need to update-->
-                <img src="./images/placeholder.png"> <!--need to update-->
+            <div class="project" id="Game Architecture">
+                <img src="./images/ECS.png">
                 <div class="project_content">
                     <h3>Entity Component System(ECS) Game Engine</h3>
-                    <p>This was my coursework for my game architecture modile in my 3rd of university. The aim was to create an ECS
-                        game engine, and then use that engine to make a simple maze escape game. In the game the player must collect
+                    <p>This was my coursework for my game architecture module in my 3rd of university. The aim was to
+                        create an ECS
+                        game engine, and then use that engine to make a simple maze escape game. In the game, the player
+                        must collect
                         3 keycards which can be found in the maze and then return to the escape portal.
-                    </p> <!--442 is the character limit at 16px font size--> <!--need to update-->
+                    </p> <!--442 is the character limit at 16px font size-->
                     <div class="content_links">
-                        <a class="fa-solid fa-video button" href="" target="_blank"></a> <!--need to update-->
-                        <a class="fa-solid fa-folder button" href="https://github.com/DanielJBates/Game-Architecture/tree/main/600098%20Submit%20-%20Daniel%20Bates/Code/600098-Daniel%20Bates%20(No%20DLL)" target="_blank"></a> <!--need to update-->
-                    </div>
-                </div>
-            </div>
-
-            <div class="project" id="2D Graphics"> <!--need to update-->
-                <img src="./images/placeholder.png"> <!--need to update-->
-                <div class="project_content">
-                    <h3>Snake Game</h3> <!--need to update-->
-                    <p>description</p> <!--442 is the character limit at 16px font size--> <!--need to update-->
-                    <div class="content_links">
-                        <a class="fa-solid fa-video button" href="" target="_blank"></a> <!--need to update-->
-                        <a class="fa-solid fa-folder button" href="https://github.com/DanielJBates/2D-Computer-Graphics/tree/main/acw" target="_blank"></a> <!--need to update-->
-                    </div>
-                </div>
-            </div>
-
-            <div class="project" id="3D Graphics"> <!--need to update-->
-                <img src="./images/placeholder.png"> <!--need to update-->
-                <div class="project_content">
-                    <h3>3D Graphics</h3> <!--need to update-->
-                    <p>description</p> <!--442 is the character limit at 16px font size--> <!--need to update-->
-                    <div class="content_links">
-                        <a class="fa-solid fa-video button" href="" target="_blank"></a> <!--need to update-->
-                        <a class="fa-solid fa-folder button" href="" target="_blank"></a> <!--need to update-->
-                    </div>
-                </div>
-            </div>
-
-            <div class="project" id="Advanced Programming"> <!--need to update-->
-                <img src="./images/placeholder.png"> <!--need to update-->
-                <div class="project_content">
-                    <h3>Advanced Programming</h3> <!--need to update-->
-                    <p>description</p> <!--442 is the character limit at 16px font size--> <!--need to update-->
-                    <div class="content_links">
-                        <a class="fa-solid fa-video button" href="" target="_blank"></a> <!--need to update-->
-                        <a class="fa-solid fa-folder button" href="https://github.com/DanielJBates/Advanced-Programming/tree/main/500083-lab-i-DanielJBates/500083_ACW_Template" target="_blank"></a> <!--need to update-->
+                        <a class="fa-solid fa-video button" href="https://youtu.be/BrhKixCI6dw" target="_blank"
+                        title="Video Demo"></a>
+                        <a class="fa-solid fa-folder button"
+                            href="https://github.com/DanielJBates/Game-Architecture/tree/main/600098%20Submit%20-%20Daniel%20Bates/Code/600098-Daniel%20Bates%20(No%20DLL)"
+                            target="_blank" title="Project Repo"></a>
                     </div>
                 </div>
             </div>
