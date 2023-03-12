@@ -93,9 +93,11 @@ h2 {
 
 .about_me p {
     margin: auto;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     width: 1000px;
     font-size: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
