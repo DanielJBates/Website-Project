@@ -72,6 +72,7 @@ nav .button {
 
 .about_me {
     margin-top: 100px;
+    text-align: center;
 }
 
 .about_me img {
@@ -85,10 +86,9 @@ nav .button {
     border-color: #E94B3CFF;
 }
 
-h2 {
+.about_me h2 {
     font-size: 30px;
     color: #E94B3CFF;
-    text-align: center;
 }
 
 .about_me p {
