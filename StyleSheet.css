@@ -73,6 +73,7 @@ nav .button {
 .about_me {
     margin-top: 100px;
     text-align: center;
+    margin: auto;
 }
 
 .about_me img {
