@@ -46,12 +46,12 @@ nav .button {
 
 .about_me {
     margin-top: 100px;
-
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    width: 90%;
-    height: 90%;
+    max-width: 1000px;
+    width: 95%;
+    height: 95%;
 }
 
 .about_me img {
@@ -66,6 +66,7 @@ nav .button {
 }
 
 h2 {
+    margin: 25px auto;
     text-align: center;
     font-size: 30px;
     color: #E94B3CFF;
@@ -75,7 +76,7 @@ h2 {
     margin: auto;
     text-align: justify;
     text-align-last: center;
-    width: 80%;
+    max-width: 1000px;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -121,7 +122,7 @@ h2 {
     position: relative;
     display: block;
     color: white;
-    width: 1250px;
+    max-width: 1250px;
     margin: auto;
     margin-top: 20px; 
 }
