@@ -48,13 +48,17 @@ nav .button {
 
 .about_me {
     margin-top: 100px;
-    text-align: center;
-    margin: 0px auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 90%;
+    height: 90%;
 }
 
 .about_me img {
     display: block;
-    margin: auto;
+    margin: 0px auto;
     width: 300px;
     height: 300px;
     border-radius: 100%;
@@ -73,7 +77,7 @@ h2 {
     margin: auto;
     text-align: justify;
     text-align-last: center;
-    width: 1000px;
+    width: 80%;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
