@@ -116,13 +116,15 @@ h2 {
 
 .project {
     margin-bottom: 25px;
+    max-width: 1250px;
+    min-width: 950px;
 }
 
 .project_display {
     position: relative;
     display: block;
     color: white;
-    max-width: 1250px;
+    height: fit-content;
     margin: auto;
     margin-top: 20px; 
 }
