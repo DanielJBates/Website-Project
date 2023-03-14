@@ -123,6 +123,7 @@ h2 {
     display: block;
     color: white;
     max-width: 1250px;
+    min-width: 950px;
     margin: auto;
     margin-top: 20px; 
 }
